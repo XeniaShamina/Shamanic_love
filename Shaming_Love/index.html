@@ -117,24 +117,26 @@
           </ul>
         </div>
       </section>
-      <section class="Контакт">
+      <section class="cont">
         <div class="container">
           <div id="contact"></div>
           <div class="contacts-inner">
-            <form class="contacts-form" action="#">
+            <form class="contacts-form" action="mail.php" method="POST">
               <h2 class="contacts-title">ХОЧЕШЬ СВАДЬБУ МЕЧТЫ?</h2>
               <input
                 class="contacts-input"
                 type="text"
+                name="name"
                 placeholder="Ваше имя"
               />
               <input
                 class="contacts-input"
                 type="tel"
+                name="phone"
                 placeholder="Номер телефона"
               />
               <p>В ближайшее время наш менеджер свяжеться с Вами</p>
-              <button type="submit">ЗАКАЗАТЬ</button>
+              <button type="submit">ОТПРАВИТЬ</button>
             </form>
             <img src="images/contact.jpg" alt="Контакты" />
           </div>
